@@ -1,0 +1,26 @@
+{
+  "name": "shuffle-bet-tracker",
+  "version": "1.0.0",
+  "description": "Tracks bets from TheGoobr on shuffle.com and sends to Discord",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server-scraper.js",
+    "dev": "node server-scraper.js",
+    "postinstall": "npx puppeteer browsers install chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.12.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
